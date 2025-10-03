@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -38,3 +39,27 @@ export default function App() {
     </Router>
   );
 }
+=======
+import React from 'react'
+import Navbar from './components/navbar';
+import Home from './components/Home'
+import Services from './components/Services'
+import Gallery from './components/Gallery'
+import Contact from './components/Contact'
+
+function App() {
+  return (
+    <>
+      <Navbar />
+      <main>
+        <Home />
+        <Services />
+        <Gallery />
+        <Contact />
+      </main>
+    </>
+  )
+}
+
+export default App
+>>>>>>> bdfc1629bda4836a0927239bbdbdd56a5f66db08
